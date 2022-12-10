@@ -1,0 +1,99 @@
+/* This is for medium devices */
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  /* This is header section start */
+  .nav {
+    padding: 15px 0px;
+  }
+  /* This is header section end */
+  /* This is main section start */
+  /* Slider Section */
+  .slider--wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* This is main section end */
+  /* This is footer section start */
+  /* This is footer section end */
+}
+/* This is for large Device */
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  /* This is header section start */
+  .nav {
+    padding: 20px 0px;
+  }
+  /* This is header section end */
+  /* Slider Section */
+  .slider--wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .slider__info h1 {
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+  }
+  .slider__info p {
+    font-size: 1.25rem;
+  }
+  .btn {
+    margin-top: 40px;
+  }
+  /* This is main section start */
+  /* This is main section end */
+  /* This is footer section start */
+  /* This is footer section end */
+}
+/* This is for x-large Devices */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  /* This is header section start */
+  .fa-bars {
+    display: none;
+  }
+  .nav-bar__list ul {
+    display: flex;
+    gap: 40px;
+  }
+  .nav-bar__list ul li {
+    display: block;
+  }
+  .nav-bar__list ul li a {
+    color: #5e6278;
+  }
+  .nav-bar__list ul li i {
+    font-size: 0.75rem;
+  }
+  /* This is header section end */
+  /* This is main section start */
+  /* This is main section end */
+  /* This is footer section start */
+  /* This is footer section end */
+}
+/* This is for xx-large Devices */
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  /* This is header section start */
+  /* This is header section end */
+  /* This is main section start */
+  /* This is main section end */
+  /* This is footer section start */
+  /* This is footer section end */
+}

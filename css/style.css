@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+section {
+  margin-top: 120px;
+}
+p {
+  color: var(--paraColor);
+  font-size: 1rem;
+}
+:root {
+  --btnColor: #e80566;
+  --paraColor: #707070;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+/* This is header section start */
+.nav {
+  background-color: #ffffff;
+  padding: 10px 0px;
+}
+.nav__bar {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-bars {
+  display: block;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.nav-bar__list ul li {
+  display: none;
+}
+/* This is header section end */
+/* This is main section start */
+/* Slider Section */
+.slider {
+  margin-top: 0;
+  padding: 120px 0px;
+  background-color: #f5f5f5;
+  background-image: url("../images/bg-wave-twin.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.slider--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.slider__info {
+  width: 100%;
+}
+.slider__info h1 {
+  font-size: 2rem;
+  padding-bottom: 15px;
+}
+.btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.875rem;
+  letter-spacing: 1.3px;
+  background-color: var(--btnColor);
+  transition-duration: 0.2s;
+}
+.btn:hover {
+  background-color: #c30456;
+}
+.slider__image {
+  width: 100%;
+}
+.slider__image img {
+  max-width: 100%;
+}
+/* This is main section end */
+/* This is footer section start */
+/* This is footer section end */
