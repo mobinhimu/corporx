@@ -3,6 +3,9 @@
   p {
     font-size: 1rem;
   }
+  section {
+    margin-top: 80px;
+  }
   .container {
     max-width: 720px;
     margin: 0 auto;
@@ -19,6 +22,32 @@
     justify-content: space-between;
     align-items: center;
   }
+  /* Section Header */
+  .section-header {
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .section-header h1 {
+    font-size: 1.9rem;
+  }
+  /* Service Section */
+  .service--wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .single__service {
+    width: 47%;
+  }
+  .single__service:last-of-type {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   /* This is main section end */
   /* This is footer section start */
   /* This is footer section end */
@@ -29,9 +58,33 @@
     max-width: 960px;
     margin: 0 auto;
   }
+  section {
+    margin-top: 120px;
+  }
+  .slider {
+    padding: 120px 0px;
+  }
   /* This is header section start */
+
   .nav {
     padding: 20px 0px;
+  }
+  .fa-bars {
+    display: none;
+  }
+  /* This is header section start */
+  .nav-bar__list ul {
+    display: flex;
+    gap: 40px;
+  }
+  .nav-bar__list ul li {
+    display: block;
+  }
+  .nav-bar__list ul li a {
+    color: #5e6278;
+  }
+  .nav-bar__list ul li i {
+    font-size: 0.75rem;
   }
   /* This is header section end */
   /* Slider Section */
@@ -50,6 +103,23 @@
   .btn {
     margin-top: 40px;
   }
+
+  /* Service Section */
+  .service--wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .single__service {
+    width: 31%;
+  }
+  .single__service:last-of-type {
+    position: relative;
+    left: 0%;
+    transform: translateX(0%);
+  }
   /* This is main section start */
   /* This is main section end */
   /* This is footer section start */
@@ -61,23 +131,7 @@
     max-width: 1140px;
     margin: 0 auto;
   }
-  /* This is header section start */
-  .fa-bars {
-    display: none;
-  }
-  .nav-bar__list ul {
-    display: flex;
-    gap: 40px;
-  }
-  .nav-bar__list ul li {
-    display: block;
-  }
-  .nav-bar__list ul li a {
-    color: #5e6278;
-  }
-  .nav-bar__list ul li i {
-    font-size: 0.75rem;
-  }
+
   /* This is header section end */
   /* This is main section start */
   /* This is main section end */
