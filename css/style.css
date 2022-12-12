@@ -18,7 +18,7 @@ h6 {
   text-decoration: none;
 }
 section {
-  margin-top: 120px;
+  margin-top: 50px;
 }
 p {
   color: var(--paraColor);
@@ -54,7 +54,7 @@ p {
 /* Slider Section */
 .slider {
   margin-top: 0;
-  padding: 120px 0px;
+  padding: 80px 0px;
   background-color: #f5f5f5;
   background-image: url("../images/bg-wave-twin.svg");
   background-repeat: no-repeat;
@@ -89,9 +89,80 @@ p {
 }
 .slider__image {
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 .slider__image img {
   max-width: 100%;
+}
+/* Section Header */
+/* .section-header{
+  width: 100%;
+} */
+.section-header h1 {
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+.section-header p {
+  text-align: center;
+  line-height: 1.5;
+}
+/* Service Section */
+.service--wrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 25px;
+}
+.single__service {
+  width: 100%;
+  border-radius: 10px;
+  padding: 40px 30px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.single__service--img {
+  max-width: 100px;
+  padding-bottom: 50px;
+}
+.single__service--img img {
+  width: 100%;
+  height: auto;
+}
+.single__service h3,
+.single__service a,
+.single__service p {
+  color: white;
+  padding-bottom: 15px;
+  text-align: center;
+  line-height: 1.5;
+}
+.single__service h3 {
+  font-size: 1.5rem;
+}
+.single__service a {
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1.5;
+}
+.single__service a i {
+  font-size: 0.885rem;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+.single__service a:hover i {
+  padding-left: 10px;
+}
+.single__service--blue {
+  background-color: #0648b3;
+}
+.single__service--pink {
+  background-color: #e80566;
+}
+.single__service--dark-blue {
+  background-color: #1a2c79;
 }
 /* This is main section end */
 /* This is footer section start */
