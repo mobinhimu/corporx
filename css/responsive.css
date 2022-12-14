@@ -48,6 +48,29 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  /* Customer Description */
+  .customer__desc {
+    font-size: 1.125rem;
+  }
+  /* Business Solution Section */
+  .business-solution__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .single__business {
+    width: 46%;
+  }
+  /* Quality Service */
+  .quality__wrapper {
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .quality__single {
+    width: 40%;
+  }
   /* This is main section end */
   /* This is footer section start */
   /* This is footer section end */
@@ -69,7 +92,7 @@
   .nav {
     padding: 20px 0px;
   }
-  .fa-bars {
+  #menu {
     display: none;
   }
   /* This is header section start */
@@ -119,6 +142,24 @@
     position: relative;
     left: 0%;
     transform: translateX(0%);
+  }
+  /* Customer Description */
+  .customer__desc {
+    font-size: 1.5rem;
+  }
+  /* Business Solution Section */
+  .business-solution {
+    padding: 120px 0px;
+  }
+  .single__business h1 {
+    font-size: 2rem;
+  }
+  .single__business p {
+    font-size: 1.125rem;
+  }
+  /* Quality Service */
+  .quality__single {
+    width: 28%;
   }
   /* This is main section start */
   /* This is main section end */
