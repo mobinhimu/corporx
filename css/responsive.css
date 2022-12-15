@@ -29,6 +29,9 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .section-header--width {
+    width: 700px;
+  }
   .section-header h1 {
     font-size: 1.9rem;
   }
@@ -70,6 +73,17 @@
   }
   .quality__single {
     width: 40%;
+  }
+  /* Best Service Section */
+  .best-service__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .best-service__card {
+    width: 47%;
   }
   /* This is main section end */
   /* This is footer section start */
@@ -160,6 +174,15 @@
   /* Quality Service */
   .quality__single {
     width: 28%;
+  }
+  /* Best Service Section */
+  .best-service__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+  }
+  .best-service__card {
+    width: 31%;
   }
   /* This is main section start */
   /* This is main section end */
