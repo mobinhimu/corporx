@@ -119,8 +119,26 @@
   .review__info--display {
     display: block;
   }
+  /* Business Section */
+  .business__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
   /* This is main section end */
   /* This is footer section start */
+  /* footer section */
+  .footer__wrapper {
+    padding: 80px 0px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  .footer__card {
+    width: 45%;
+  }
   /* This is footer section end */
 }
 /* This is for large Device */
@@ -259,6 +277,17 @@
   }
   /* This is main section end */
   /* This is footer section start */
+  /* footer section */
+  .footer__wrapper {
+    padding: 80px 0px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .footer__card {
+    width: 22%;
+  }
   /* This is footer section end */
 }
 /* This is for x-large Devices */

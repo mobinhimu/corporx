@@ -549,6 +549,108 @@ p {
 .review__info i {
   color: #f5b759;
 }
+/* Business Section */
+.business {
+  margin: 50px 0px;
+}
+.business__wrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+.business__section h1 {
+  padding-bottom: 20px;
+}
+.business__section p {
+  text-transform: capitalize;
+}
+.btn--blue {
+  background-color: #1a2c79;
+}
+.btn--blue:hover {
+  background-color: #13205a;
+}
 /* This is main section end */
 /* This is footer section start */
+/* footer section */
+footer {
+  background-color: #1a2c79;
+}
+.footer__wrapper {
+  padding: 40px 0px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 30px;
+}
+.footer__card {
+  width: 100%;
+}
+.footer__card img {
+  padding-bottom: 20px;
+}
+.footer__card h3 {
+  color: white;
+  padding-bottom: 0px;
+}
+.footer__card p {
+  color: whitesmoke;
+}
+.footer__icon {
+  padding: 30px 0px;
+}
+.footer__icon ul {
+  display: flex;
+  gap: 30px;
+}
+.footer__icon ul li {
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__icon ul li a {
+  color: white;
+}
+.footer__icon ul li:first-of-type {
+  background-color: #395694;
+}
+.footer__icon ul li:nth-child(2) {
+  background-color: #1c9ae8;
+}
+.footer__icon ul li:nth-child(3) {
+  background-color: #c41f1e;
+}
+.footer__icon ul li:last-of-type {
+  background-color: #c41f1e;
+}
+.footer__link ul {
+  padding-top: 20px;
+}
+.footer__link ul li a {
+  color: rgb(161, 161, 161);
+  line-height: 2;
+  transition-duration: 0.3s;
+}
+.footer__link ul li a:hover {
+  color: white;
+}
+footer small {
+  display: inline-block;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+footer small a {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 1.125rem;
+  color: #707070;
+  transition-duration: 0.3s;
+}
+footer small a:hover {
+  color: white;
+}
 /* This is footer section end */
