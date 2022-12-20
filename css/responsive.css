@@ -139,6 +139,14 @@
   .footer__card {
     width: 45%;
   }
+  .copyright {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+  }
   /* This is footer section end */
 }
 /* This is for large Device */
